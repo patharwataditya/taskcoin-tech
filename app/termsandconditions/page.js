@@ -8,7 +8,7 @@ Effective Date: [20/12/2024]
 
   <h2>1. Introduction</h2>
   <p>
-    Welcome to <strong>Earnify</strong> ("the Site"). The Site is an experimental platform created for
+    Welcome to <strong>TaskCoin</strong> ("the Site"). The Site is an experimental platform created for
     educational purposes only. These Terms and Conditions ("Terms") govern your access and use of theba Site.
     By using the Site, you agree to these Terms in full. If you do not agree, please discontinue use immediately.
   </p>
@@ -39,7 +39,7 @@ Effective Date: [20/12/2024]
 
   <h2>4. Intellectual Property</h2>
   <p>
-    All content on the Site, including text, graphics, and code, is the intellectual property of <strong>Earnify</strong> or its creators, unless otherwise stated. This content is provided solely for educational use and may not be copied, reproduced, or distributed for commercial purposes.
+    All content on the Site, including text, graphics, and code, is the intellectual property of <strong>TaskCoin</strong> or its creators, unless otherwise stated. This content is provided solely for educational use and may not be copied, reproduced, or distributed for commercial purposes.
   </p>
 
   <h2>5. No Warranties</h2>
