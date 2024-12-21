@@ -10,16 +10,28 @@ export default function Article2() {
   const [showScrollMessage, setShowScrollMessage] = useState(false); // New state for the message
 
   useEffect(() => {
-      const adScript = document.createElement("script");
-      adScript.type = "text/javascript";
-      adScript.src = "//pl25338009.profitablecpmrate.com/f3/2b/03/f32b037e1e762163fa3c9f4200148b1e.js";
-      adScript.async = true;
-      document.body.appendChild(adScript);
-  
-      return () => {
-        document.body.removeChild(adScript);
-      };
-    }, []);
+    const adScript = document.createElement("script");
+    adScript.type = "text/javascript";
+    adScript.src = "//pl25338009.profitablecpmrate.com/f3/2b/03/f32b037e1e762163fa3c9f4200148b1e.js";
+    adScript.async = true;
+    document.body.appendChild(adScript);
+
+    return () => {
+      document.body.removeChild(adScript);
+    };
+  }, []);
+
+  useEffect(() => {
+    const adScript = document.createElement("script");
+    adScript.type = "text/javascript";
+    adScript.src = "//pl25338977.profitablecpmrate.com/da/d2/92/dad29265bfe30f4577247249ad88821b.js";
+    adScript.async = true;
+    document.body.appendChild(adScript);
+
+    return () => {
+      document.body.removeChild(adScript);
+    };
+  }, []);
 
   // Function to handle the first button's countdown
   const handleFirstButtonClick = () => {
@@ -62,6 +74,29 @@ export default function Article2() {
 
   return (
     <div className="p-6 font-sans bg-gray-50 min-h-screen flex flex-col">
+
+<div className="my-6 text-center">
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `
+        atOptions = {
+          'key' : '7aebe933cfcc802157e48f6b249384a1',
+          'format' : 'iframe',
+          'height' : 300,
+          'width' : 160,
+          'params' : {}
+        };
+      `,
+    }}
+  />
+  <script
+    type="text/javascript"
+    src="//www.highperformanceformat.com/7aebe933cfcc802157e48f6b249384a1/invoke.js"
+  />
+</div>
+
+
       {/* First Button at the top of the article */}
       <div className="flex justify-center mb-4">
         <button
@@ -80,6 +115,17 @@ export default function Article2() {
           Please scroll down to continue!
         </div>
       )}
+
+
+       {/* Native Banner Ad */}
+       <div className="my-6 text-center">
+        <script
+          async="async"
+          data-cfasync="false"
+          src="//pl25338177.profitablecpmrate.com/1808ca4886be8a70f535e01c6eb71efc/invoke.js"
+        ></script>
+        <div id="container-1808ca4886be8a70f535e01c6eb71efc"></div>
+      </div>
 
       <h1 className="text-4xl font-bold mb-6 text-center text-blue-600">
         AI Revolution: Transforming the Future
@@ -172,6 +218,28 @@ export default function Article2() {
       </div>
 
 
+      <div className="my-6 text-center">
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `
+        atOptions = {
+          'key' : '03d1272981fab4af247f649e79d8769c',
+          'format' : 'iframe',
+          'height' : 600,
+          'width' : 160,
+          'params' : {}
+        };
+      `,
+    }}
+  />
+  <script
+    type="text/javascript"
+    src="//www.highperformanceformat.com/03d1272981fab4af247f649e79d8769c/invoke.js"
+  />
+</div>
+
+
       {/* Second Button at the bottom of the article */}
       {secondButtonVisible && (
         <div className="flex justify-center mt-8">
@@ -185,6 +253,28 @@ export default function Article2() {
           </button>
         </div>
       )}
+
+
+<div className="my-6 text-center">
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `
+        atOptions = {
+          'key' : '55a03f9bbf30f921b77f15386eb173eb',
+          'format' : 'iframe',
+          'height' : 250,
+          'width' : 300,
+          'params' : {}
+        };
+      `,
+    }}
+  />
+  <script
+    type="text/javascript"
+    src="//www.highperformanceformat.com/55a03f9bbf30f921b77f15386eb173eb/invoke.js"
+  />
+</div>
     </div>
   );
 }
