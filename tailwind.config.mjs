@@ -22,6 +22,19 @@ export default {
           300: "#7FBC8C",
         },
       },
+      keyframes: {
+        marquee: {
+          '0%': {
+            transform: 'translateX(100%)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
+          },
+        },
+      },
+      animation: {
+        marquee: 'marquee 10s linear infinite', // Apply the animation with a duration of 10s
+      },
     },
   },
   plugins: [],

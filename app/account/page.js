@@ -55,7 +55,7 @@ export default function HomePage() {
   // Calculate the values for the table
   const referralsCount = userDetailsData?.referredUsers?.length || 0;
   const taskCount = userData?.taskCount || 0;
-  const referralValue = referralsCount * 50;
+  const referralValue = referralsCount * 100;
   const taskValue = taskCount * 10;
   const totalValue = referralValue + taskValue;
 

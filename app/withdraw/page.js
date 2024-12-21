@@ -54,7 +54,7 @@ export default function HomePage() {
 
       {/* Slide-In Menu */}
       <div
-        className={`fixed top-0 left-0 h-full bg-customYellow-400 text-black border-[1px] border-black w-64 transform transition-all duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full bg-customYellow-400 text-black border-[1px] border-black w-64 transform transition-all duration-300 ease-in-out z-40 ${
           menuOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -115,6 +115,15 @@ export default function HomePage() {
 
       {/* Main Content */}
       <div className="min-h-screen bg-customYellow-200 p-8 pt-16 flex items-center justify-center">
+        {/* News Section with Running Animation */}
+        <div className="absolute top-16 mt-4 bg-customYellow-300 p-4 text-black font-semibold text-center border-2 border-black rounded-md shadow-[4px_4px_0px_0px_black]">
+          <h3 className="text-xl">News:</h3>
+          <div className="overflow-hidden w-full">
+            <div className="animate-marquee whitespace-nowrap">
+              Next Big Update on 26 January 2025
+            </div>
+          </div>
+        </div>
         <div className="bg-customYellow-300 p-8 rounded-lg shadow-[8px_8px_0px_0px_black] w-80 border-[1px] border-black">
           <h1 className="text-3xl font-bold text-center mb-6 text-black">Withdraw Page</h1>
 
