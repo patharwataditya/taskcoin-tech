@@ -31,7 +31,7 @@ export default function HomePage() {
 
   // Function to copy the referral link to clipboard
   const copyToClipboard = () => {
-    const text = `http://192.168.79.61:3000/signup?referId=${user?.userId}`;
+    const text = `https://www.taskcoin.tech/signup?referId=${user?.userId}`;
   
     if (navigator.clipboard) {
       // Use the Clipboard API if available (desktop, modern browsers)
@@ -153,7 +153,7 @@ export default function HomePage() {
             <input
               type="text"
               readOnly
-              value={`http://192.168.79.61:3000/signup?referId=${user?.userId}`}
+              value={`https://www.taskcoin.tech/signup?referId=${user?.userId}`}
               className="w-full px-4 py-2 rounded-md border border-black bg-customYellow-400"
             />
             <button
@@ -174,6 +174,21 @@ export default function HomePage() {
             Logout
           </button>
         </div>
+
+        {/* Referral Rules Section */}
+<div className="mt-8 mx-auto max-w-lg p-6 bg-customYellow-400 text-black border-2 border-black rounded-md shadow-[8px_8px_0px_0px_black]">
+  <h2 className="text-3xl font-extrabold text-center mb-4">Referral Rules</h2>
+  <ul className="list-disc list-inside space-y-2 font-semibold">
+    <li>The person using your referral code must be active for at least 10 days.</li>
+    <li>They must complete 100 tasks, averaging 10 tasks per day.</li>
+    <li>The referral reward will only be credited once all conditions are met.</li>
+    <li>The referred user should not violate any platform policies.</li>
+    <li>Multiple accounts created to exploit referral rewards will be disqualified.</li>
+    <li>Referral bonuses are subject to verification and approval by the admin team.</li>
+  </ul>
+</div>
+
+
       </div>
 
       {/* Toast Notifications */}

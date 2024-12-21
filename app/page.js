@@ -68,6 +68,11 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-customYellow-200 overflow-hidden">
+      
+      <div className="absolute top-10 text-6xl font-extrabold text-black neo-brutalism-style">
+        Task Coin
+      </div>
+
       <div className="bg-customYellow-300 p-8 rounded-lg shadow-[8px_8px_0px_0px_black] w-80 border-[1px] border-black">
         <h1 className="text-3xl font-bold text-center mb-6 text-black">Login</h1>
 
