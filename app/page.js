@@ -68,6 +68,7 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-customYellow-200 overflow-hidden">
+      <div dangerouslySetInnerHTML={{ __html: "<!-- Bidvertiser2097144 -->" }} />
       
       <div className="absolute top-10 text-6xl font-extrabold text-black neo-brutalism-style">
         Task Coin
