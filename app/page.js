@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from './context/AuthContext';
+import Head from 'next/head';
 
 export default function Home() {
   const [username, setUsername] = useState("");
@@ -69,6 +70,11 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center h-screen bg-customYellow-200 overflow-hidden">
       <div dangerouslySetInnerHTML={{ __html: "<!-- Bidvertiser2097144 -->" }} />
+      <Head>
+        {/* Meta tag for site verification */}
+        <meta name="6a97888e-site-verification" content="34b0d736c9d26f95405042335c247282" />
+        <title>TaskCoin</title>
+      </Head>
       
       <div className="absolute top-10 text-6xl font-extrabold text-black neo-brutalism-style">
         Task Coin
