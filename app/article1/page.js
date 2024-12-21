@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Article1() {
   const [firstCountdown, setFirstCountdown] = useState(10);
@@ -8,6 +8,19 @@ export default function Article1() {
   const [secondButtonState, setSecondButtonState] = useState("Hidden");
   const [secondButtonVisible, setSecondButtonVisible] = useState(false);
   const [showScrollText, setShowScrollText] = useState(false);
+
+  // Load Adsterra script when the component mounts
+  useEffect(() => {
+    const adScript = document.createElement("script");
+    adScript.type = "text/javascript";
+    adScript.src = "//pl25338009.profitablecpmrate.com/f3/2b/03/f32b037e1e762163fa3c9f4200148b1e.js";
+    adScript.async = true;
+    document.body.appendChild(adScript);
+
+    return () => {
+      document.body.removeChild(adScript);
+    };
+  }, []);
 
   // Function to handle the first button's countdown
   const handleFirstButtonClick = () => {
@@ -69,6 +82,16 @@ export default function Article1() {
         </div>
       )}
 
+      {/* Native Banner Ad */}
+      <div className="my-6 text-center">
+        <script
+          async="async"
+          data-cfasync="false"
+          src="//pl25338177.profitablecpmrate.com/1808ca4886be8a70f535e01c6eb71efc/invoke.js"
+        ></script>
+        <div id="container-1808ca4886be8a70f535e01c6eb71efc"></div>
+      </div>
+
       {/* Article Content */}
       <h1 className="text-4xl font-bold mb-6 text-center text-blue-600">
         GTA 6: The Next Big Thing in Gaming
@@ -113,26 +136,26 @@ export default function Article1() {
       </div>
 
       {/* Additional Text about GTA 6 */}
-<div className="max-w-4xl mx-auto mt-6 bg-white p-6 shadow-md rounded-lg">
-  <p className="mb-4 text-gray-700">
-    GTA 6 promises to be an extraordinary leap in the world of gaming. With cutting-edge graphics, the game aims to bring an incredibly realistic experience to players. Rockstar Games has spared no expense in creating a living, breathing world, where every street corner feels authentic and every character has their own story to tell.
-  </p>
-  <p className="mb-4 text-gray-700">
-    The game’s expansive map, rumored to include multiple cities and a variety of environments, will offer players countless opportunities for exploration. From lush forests to bustling urban centers, each area will be meticulously designed to immerse players in a world like never before.
-  </p>
-  <p className="mb-4 text-gray-700">
-    One of the most anticipated features of GTA 6 is the next-level AI, which will revolutionize how NPCs behave. Players can expect dynamic interactions with non-playable characters, who will react intelligently to player actions, creating an unpredictable and evolving game world.
-  </p>
-  <p className="mb-4 text-gray-700">
-    In addition to the single-player experience, the multiplayer mode is expected to take the franchise’s online offerings to new heights. Whether you're teaming up with friends for heists or competing in massive multiplayer battles, GTA 6 will provide an endless array of activities to keep players engaged for years to come.
-  </p>
-  <p className="mb-4 text-gray-700">
-    With Rockstar Games’ dedication to quality and innovation, GTA 6 is shaping up to be one of the most anticipated titles in gaming history. Fans around the world are eagerly awaiting more details, and the excitement surrounding the game continues to grow.
-  </p>
-</div>
+      <div className="max-w-4xl mx-auto mt-6 bg-white p-6 shadow-md rounded-lg">
+        <p className="mb-4 text-gray-700">
+          GTA 6 promises to be an extraordinary leap in the world of gaming. With cutting-edge graphics, the game aims to bring an incredibly realistic experience to players. Rockstar Games has spared no expense in creating a living, breathing world, where every street corner feels authentic and every character has their own story to tell.
+        </p>
+        <p className="mb-4 text-gray-700">
+          The game’s expansive map, rumored to include multiple cities and a variety of environments, will offer players countless opportunities for exploration. From lush forests to bustling urban centers, each area will be meticulously designed to immerse players in a world like never before.
+        </p>
+        <p className="mb-4 text-gray-700">
+          One of the most anticipated features of GTA 6 is the next-level AI, which will revolutionize how NPCs behave. Players can expect dynamic interactions with non-playable characters, who will react intelligently to player actions, creating an unpredictable and evolving game world.
+        </p>
+        <p className="mb-4 text-gray-700">
+          In addition to the single-player experience, the multiplayer mode is expected to take the franchise’s online offerings to new heights. Whether you're teaming up with friends for heists or competing in massive multiplayer battles, GTA 6 will provide an endless array of activities to keep players engaged for years to come.
+        </p>
+        <p className="mb-4 text-gray-700">
+          With Rockstar Games’ dedication to quality and innovation, GTA 6 is shaping up to be one of the most anticipated titles in gaming history. Fans around the world are eagerly awaiting more details, and the excitement surrounding the game continues to grow.
+        </p>
+      </div>
 
-{/* Image */}
-<div className="max-w-4xl mx-auto my-6">
+      {/* Image */}
+      <div className="max-w-4xl mx-auto my-6">
         <img
           src="https://m.economictimes.com/thumb/msid-105503330,width-1600,height-900,resizemode-4,imgsize-10392/gta-6-grand-theft-auto-vi-trailer.jpg"
           alt="GTA 6 Game"
@@ -141,48 +164,31 @@ export default function Article1() {
       </div>
 
       {/* More Details about GTA 6 */}
-<div className="max-w-4xl mx-auto mt-6 bg-white p-6 shadow-md rounded-lg">
-  <p className="mb-4 text-gray-700">
-    GTA 6 is not only set to redefine the open-world genre but also push the boundaries of what’s possible in video games. One of the most exciting rumors surrounding the game is the potential for a dynamic story that changes based on player choices. Unlike previous iterations, where the narrative followed a predetermined path, GTA 6 may offer a more personalized experience where your decisions impact the world around you.
-  </p>
-  <p className="mb-4 text-gray-700">
-    The game’s plot is expected to focus on the lives of multiple protagonists, each with their own unique backstory and motivations. The interactions between these characters are rumored to be deep and engaging, providing players with a narrative experience that’s both emotionally compelling and action-packed.
-  </p>
-  <p className="mb-4 text-gray-700">
-    As for the setting, Rockstar Games is reportedly designing a sprawling map that will include various regions inspired by real-life locations. Players will explore everything from dense urban cities to remote rural areas, and each environment will be rich with detail. In addition to the core gameplay, there will also be a variety of side activities, including sports, recreational events, and mini-games to keep players entertained.
-  </p>
-  <p className="mb-4 text-gray-700">
-    Multiplayer mode will also receive a major overhaul in GTA 6. Rockstar is reportedly working on enhancing the online experience with new features like large-scale battles, a better progression system, and more meaningful player-driven events. The community will have more power than ever to shape the world around them, with new ways to collaborate and compete in the game’s dynamic ecosystem.
-  </p>
-  <p className="mb-4 text-gray-700">
-    While official details are still sparse, fans are eagerly awaiting the first gameplay reveal and are hoping that GTA 6 will live up to its massive expectations. Rockstar Games is known for delivering high-quality, immersive worlds, and GTA 6 seems poised to be the next step in that legacy, offering players an unforgettable experience.
-  </p>
-</div>
-
-{/* Image */}
-<div className="max-w-4xl mx-auto my-6">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bXoQF7z-JX0unUlqOhkF04svSjm--_41GiiOpc1SvXgSs4xwipUT5GyVw4vHB4-zn8Q&usqp=CAU"
-          alt="GTA 6 Game"
-          className="w-full h-auto rounded-lg shadow-md"
-        />
-      </div>
-
-
-
-      {/* Second Button at the Bottom */}
-      {secondButtonVisible && (
-        <div className="mt-8 flex justify-center">
-          <button
-            onClick={handleSecondButtonClick}
-            className="px-6 py-3 bg-green-600 text-white rounded-lg font-medium text-lg hover:bg-green-700 transition duration-300"
-          >
-            {secondButtonState === "Start"
-              ? `Start (${secondCountdown})`
-              : "Continue"}
-          </button>
+      <div className="max-w-4xl mx-auto mt-6 bg-white p-6 shadow-md rounded-lg">
+        <p className="mb-4 text-gray-700">
+          GTA 6 is not only set to redefine the open-world genre but also push the boundaries of what’s possible in video games. One of the most exciting rumors surrounding the game is the potential for a dynamic story that changes based on player choices. Unlike previous iterations, where the narrative followed a predetermined path, GTA 6 may offer a more personalized experience where your decisions impact the world around you.
+        </p>
+        <p className="mb-4 text-gray-700">
+          The game’s plot is expected to focus on the lives of multiple protagonists, each with their own unique backstory and motivations. The interactions between these characters are rumored to be deep and engaging, providing players with a narrative experience that’s both emotionally compelling and action-packed.
+        </p>
+        <p className="mb-4 text-gray-700">
+          With the level of ambition Rockstar Games is known for, GTA 6 is not just a game – it’s an experience that players will remember for years to come. Stay tuned for more updates as we count down to the release of what promises to be a groundbreaking entry in the world of gaming!
+        </p>
         </div>
-      )}
-    </div>
-  );
+
+{/* Second Button */}
+{secondButtonVisible && (
+  <div className="mt-10 text-center">
+    <button
+      onClick={handleSecondButtonClick}
+      className="px-6 py-3 bg-green-600 text-white rounded-lg font-medium text-lg hover:bg-green-700 transition duration-300"
+    >
+      {secondButtonState === "Start"
+        ? `Start (${secondCountdown})`
+        : "Continue"}
+    </button>
+  </div>
+)}
+</div>
+);
 }

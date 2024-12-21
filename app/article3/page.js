@@ -14,6 +14,19 @@ export default function Article3() {
   const router = useRouter();
   const [showScrollMessage, setShowScrollMessage] = useState(false); // For the scroll message
 
+  // Load Adsterra script when the component mounts
+  useEffect(() => {
+    const adScript = document.createElement("script");
+    adScript.type = "text/javascript";
+    adScript.src = "//pl25338009.profitablecpmrate.com/f3/2b/03/f32b037e1e762163fa3c9f4200148b1e.js";
+    adScript.async = true;
+    document.body.appendChild(adScript);
+
+    return () => {
+      document.body.removeChild(adScript);
+    };
+  }, []);
+
   // Function to handle the first button's countdown
   const handleFirstButtonClick = () => {
     if (firstButtonState === "Start") {
