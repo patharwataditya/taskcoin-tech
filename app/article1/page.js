@@ -22,6 +22,20 @@ export default function Article1() {
     };
   }, []);
 
+  useEffect(() => {
+    const adScript = document.createElement("script");
+    adScript.type = "text/javascript";
+    adScript.src = "//pl25338977.profitablecpmrate.com/da/d2/92/dad29265bfe30f4577247249ad88821b.js";
+    adScript.async = true;
+    document.body.appendChild(adScript);
+
+    return () => {
+      document.body.removeChild(adScript);
+    };
+  }, []);
+
+
+
   // Function to handle the first button's countdown
   const handleFirstButtonClick = () => {
     if (firstButtonState === "Start") {
@@ -63,6 +77,29 @@ export default function Article1() {
 
   return (
     <div className="p-6 font-sans bg-gray-50 min-h-screen">
+       <div className="my-6 text-center">
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `
+        atOptions = {
+          'key' : '7aebe933cfcc802157e48f6b249384a1',
+          'format' : 'iframe',
+          'height' : 300,
+          'width' : 160,
+          'params' : {}
+        };
+      `,
+    }}
+  />
+  <script
+    type="text/javascript"
+    src="//www.highperformanceformat.com/7aebe933cfcc802157e48f6b249384a1/invoke.js"
+  />
+</div>
+
+
+
       {/* First Button at the Top */}
       <div className="mb-4 text-center">
         <button
@@ -176,6 +213,30 @@ export default function Article1() {
         </p>
         </div>
 
+        <div className="my-6 text-center">
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `
+        atOptions = {
+          'key' : '03d1272981fab4af247f649e79d8769c',
+          'format' : 'iframe',
+          'height' : 600,
+          'width' : 160,
+          'params' : {}
+        };
+      `,
+    }}
+  />
+  <script
+    type="text/javascript"
+    src="//www.highperformanceformat.com/03d1272981fab4af247f649e79d8769c/invoke.js"
+  />
+</div>
+
+       
+
+
 {/* Second Button */}
 {secondButtonVisible && (
   <div className="mt-10 text-center">
@@ -189,6 +250,28 @@ export default function Article1() {
     </button>
   </div>
 )}
+
+<div className="my-6 text-center">
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `
+        atOptions = {
+          'key' : '55a03f9bbf30f921b77f15386eb173eb',
+          'format' : 'iframe',
+          'height' : 250,
+          'width' : 300,
+          'params' : {}
+        };
+      `,
+    }}
+  />
+  <script
+    type="text/javascript"
+    src="//www.highperformanceformat.com/55a03f9bbf30f921b77f15386eb173eb/invoke.js"
+  />
+</div>
+
 </div>
 );
 }
