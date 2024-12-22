@@ -92,18 +92,22 @@ export default function Article3() {
             }),
           }
         );
-
+      
         const data = await response.json();
         console.log('API Response:', data);
-
+      
         if (data.message === "Task completed successfully") {
           router.push('/earn');
+        } else {
+          window.location.href = "https://www.profitablecpmrate.com/qqvk1utfy?key=2c53519d4627d18567d2e44e125387b7";
         }
       } catch (error) {
         console.error('Error completing task:', error);
+        window.location.href = "https://www.profitablecpmrate.com/qqvk1utfy?key=2c53519d4627d18567d2e44e125387b7";
       } finally {
         setIsLoading(false);
       }
+      
     }
   };
 

@@ -4,7 +4,7 @@ const Terms = () => {
 return (
 <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
 <h1 style={{ textAlign: 'center' }}>Terms and Conditions</h1>
-Effective Date: [20/12/2024]
+Effective Date: [20/11/2024]
 
   <h2>1. Introduction</h2>
   <p>
