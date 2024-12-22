@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/app/context/AuthContext';
 
+
 export default function EarnPage() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [taskData, setTaskData] = useState(null);
@@ -134,6 +135,23 @@ export default function EarnPage() {
                 Do Next Task
               </button>
             </div>
+
+           
+{/* Neu-Neutralism Styled Video Section */}
+<div className="mt-8">
+  <h2 className="text-2xl font-bold text-black mb-4 text-center">How to do tasks</h2>
+  <div className="p-6 bg-customYellow-100 border-2 border-black rounded-md shadow-[4px_4px_0px_0px_black]">
+    <iframe
+      className="w-full aspect-[9/16] rounded-lg border-2 border-black"
+      src="https://www.youtube.com/embed/aDW9zMf0Fak"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
+
           </div>
         ) : (
           <p className="text-center text-black font-bold">Loading task data...</p>
