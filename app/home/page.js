@@ -196,6 +196,7 @@ export default function HomePage() {
             <li>The referred user should not violate any platform policies.</li>
             <li>Multiple accounts created to exploit referral rewards will be disqualified.</li>
             <li>Referral bonuses are subject to verification and approval by the admin team.</li>
+            <li>If the person you referred is not active for 10 days and does not complete 100 tasks, twice the credited amount (200 rupees) will be debited from your account after 20 days.</li>
           </ul>
         </div>
       </div>

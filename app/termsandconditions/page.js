@@ -62,10 +62,18 @@ Effective Date: [20/12/2024]
     We reserve the right to modify or update these Terms at any time. Any changes will be effective immediately upon posting. It is your responsibility to review these Terms periodically for updates.
   </p>
 
-  <h2>8. Contact Information</h2>
+  <h2>8. Age Restriction and Consent</h2>
   <p>
-    If you have any questions about these Terms, please contact us at <strong></strong>.
+    Users of <strong>TaskCoin</strong> must be at least 18 years old to access and use the Site. If you are under 18 years of age, you are strictly prohibited from using this application. By using the Site, you confirm that you meet this age requirement.
   </p>
+  <p>
+    Furthermore, users should be aware that tasks on the Site may include or link to content that contains adult advertisements. By proceeding to use the Site, you acknowledge and consent to the possibility of encountering such content as part of the simulated tasks. If you are not comfortable with this, you are advised to refrain from using the Site.
+  </p>
+  <p>
+    It is the user's responsibility to ensure they are compliant with this policy. The creators of the Site disclaim any liability for exposure to adult content due to non-compliance with the age restriction or lack of consent.
+  </p>
+
+
 
   <p><strong>Thank you for understanding that this Site is an educational experiment and not a commercial platform. Enjoy exploring!</strong></p>
 </div>
